@@ -71,3 +71,23 @@ footer {
     bottom: 0;
     width: 100%;
 }
+figure {
+    margin: 20px 0; /* Aggiunge un po' di spazio sopra e sotto */
+    text-align: center; /* Centra l'immagine e il testo */
+}
+
+figcaption {
+    font-size: 0.8em; /* Rende il testo più piccolo */
+    color: #555555; /* Usa un grigio meno evidente */
+    margin-top: 8px; /* Distanzia leggermente il testo dall'immagine */
+    font-style: italic; /* Mette il testo in corsivo */
+}
+
+figcaption a {
+    color: #555555;
+    text-decoration: underline;
+}
+
+figcaption a:hover {
+    color: #c62828; /* Cambia colore quando ci passi sopra col mouse */
+}
