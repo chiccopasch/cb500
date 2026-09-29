@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 70px; /* Evita che il footer copra il testo */
+}
+
+header {
+    background-color: #c62828; /* Rosso classico */
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    /* Il colore di base è bianco (ereditato dall'header) */
+}
+
+nav {
+    background-color: #212121;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    background-color: #424242;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+img {
+    width: 48%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #212121;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
